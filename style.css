@@ -1,0 +1,94 @@
+*{
+  padding: 0px;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.nav-link{
+  border:1px solid rgb(117, 117, 118);
+  border-width: thin;
+  padding: 9px;
+  border-radius: 3px;
+  margin: 6px;
+  width: 100px;
+  color: rgb(224, 229, 234);
+text-align: center;
+ 
+  
+
+} 
+.collapse.navbar-collapse{justify-content: center;}
+.banner {
+background-image: url(https://i.postimg.cc/MGT02VvJ/2150648423.jpg);
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-size: cover;
+background-position: center;
+color: #fff;
+}
+.conquer {
+font-size: 100px;
+}
+.banner p {
+font-size: 30px;
+}
+@media(max-width:768px){
+.conquer{
+font-size: 70px !important;
+}
+}
+.banner1{ 
+background-image: url(https://w0.peakpx.com/wallpaper/868/284/HD-wallpaper-landscape-wide-landscape-wide-nature-mountains-reflection.jpg);
+height: 220px;
+width: 1519px;
+
+
+
+}
+.contact {
+  position: relative;
+  margin-top: 100px;
+  height: 630px;
+  width: 100%;
+  margin-left: 0px;
+  overflow: hidden; 
+}
+
+.contact::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/shot-highway-road-surrounded-by-dried-grass-fields-sky-sunset.jpg);
+  background-size: cover;
+  filter: blur(4px); 
+  z-index: -1; 
+}
+
+
+.form p{
+background-color: rgba(255, 228, 196, 0.367);
+border-radius: 5px;
+padding: 10px;
+font-weight: 500;
+}
+.colx input,textarea{
+background-color: rgba(255, 255, 255, 0.505);
+padding: 6px;
+border: 0px solid white;
+border-radius: 5px;
+width: 100%;
+}
+.contact-cont{
+padding-top: 7%;
+}
+
+::placeholder{
+color: rgb(34, 34, 34);
+font-weight: 500;
+}
